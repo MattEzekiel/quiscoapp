@@ -3,7 +3,7 @@ import {formatearDinero} from "../helpers";
 import useQuiosco from "../hooks/useQuiosco";
 function Producto({producto}) {
     const { nombre, imagen, precio } = producto;
-    const { handleSetProducto, handleChangeModal } =useQuiosco();
+    const { handleSetProducto, handleChangeModal } = useQuiosco();
 
     return (
         <div className={"broder p-3"}>
